@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Link Generated</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #000000; /* Dark hacker background */
+            color: #00ff00; /* Neon green text */
+        }
+
+        .container {
+            display: inline-block;
+            padding: 30px;
+            background-color: #111111;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #00ff00;
+            border: 1px solid #00ff00;
+        }
+
+        h1 {
+            color: #00ff00;
+        }
+
+        a {
+            color: #00ff00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #00ff00;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #00cc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Phishing Link Generated</h1>
+        <p><strong>Generated Link:</strong></p>
+        <a href="{{ phishing_link }}" target="_blank">{{ phishing_link }}</a>
+        <br><br>
+        <p>  This link is for internal simulation/training only. Do not misuse.</p>
+        <a href="/" class="button"> Generate Another Link</a>
+    </div>
+</body>
+</html>
+
